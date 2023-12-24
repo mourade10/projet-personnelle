@@ -240,9 +240,99 @@ span{
   top: 0;
 }
 
+.box-accessoire{
+  position: absolute;
+  top: 10%;
+}
+
 .vide{
   margin: 2rem;
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
   border: 0.3px solid rgb(122, 120, 120);
+}
+
+.box-fv{
+  position: absolute;
+  top: 10%;
+}
+
+.box-fixe{
+ height: 100%;
+ width: 250px;
+ background-color: #f1f1f1;
+ top: 0;
+ left: 0;
+ margin-top: 20px;
+ margin-right: 20px;
+ position: sticky;
+}
+.cardi{
+ margin-right: 20px;
+ top: 0;
+ left: 0;
+}
+
+.cardi-vetement{
+  display: flex;
+  justify-content: right;
+  gap: 4rem;
+ margin: 2rem;
+  flex-direction: row;
+  background-color: #f1f1f1;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-around;
+}
+
+.cardi-vetement img{
+  height: 100%;
+  width: 16rem;
+}
+
+.cardi-jupes-nave{
+  width: 16rem;
+  height: 100%;
+  display: flex;
+  background-color: white;
+  
+}
+
+.card-png{
+  border: 1px solid;
+  margin-bottom: 1rem;
+}
+
+.cardi-pp{
+  display: flex;
+  justify-content: center;
+}
+
+.cardi-p{
+  display: flex;
+  justify-content: center;
+}
+
+.card img{
+height: 100%;
+width: 16rem;
+}
+.card{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.cardi-jupes-nave{
+  display: flex;
+  flex-direction: row;
+}
+
+.cardi-seconde{
+  background-color: white;
+  border: 1px solid;
+  
+}
+
+.cardi-vetement-box{
+  background-color: white;
 }
